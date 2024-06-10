@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,17 +18,63 @@
         <div class="script section">
             <h2>Read Nepali Script</h2>
             <div class="box" id="nepali-script">
-                <!-- Nepali script content will be inserted here by JavaScript -->
+              
             </div>
             <button id="record-nepali" onclick="readAndRecord('nepali')">Record your script</button>
+            <button id="stop-nepali" onclick="stopRecording()" style="display:none;">Stop Recording</button>
+
         </div>
 
         <div class="script section">
             <h2>Read English Script</h2>
             <div class="box" id="english-script">
-                <!-- English script content will be inserted here by JavaScript -->
+
             </div>
             <button id="record-english" onclick="readAndRecord('english')">Record your script</button>
+            <button id="stop-english" onclick="stopRecording()" style="display:none;">Stop Recording</button>
+        </div>
+
+        <div class="navigation">
+            <button onclick="nextPage()">Next Page</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepali-to-English Script Reader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Nepali-to-English Script Reader</h1>
+        
+        <div class="input-section">
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" placeholder="Full Name">
+        </div>
+
+        <div class="section">
+            <h2>Read Nepali Script</h2>
+            <div class="box" id="nepali-script">
+                <!-- Nepali script content will be inserted here by JavaScript -->
+            </div>
+            <button id="record-nepali" onclick="readAndRecord('nepali')">Record Nepali Script</button>
+            <button id="stop-nepali" onclick="stopRecording()" style="display:none;">Stop Recording</button>
+        </div>
+
+        <div class="section">
+            <h2>Read English Script</h2>
+            <div class="box" id="english-script">
+                <!-- English script content will be inserted here by JavaScript -->
+            </div>
+            <button id="record-english" onclick="readAndRecord('english')">Record English Script</button>
+            <button id="stop-english" onclick="stopRecording()" style="display:none;">Stop Recording</button>
         </div>
 
         <div class="navigation">
