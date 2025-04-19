@@ -1,9 +1,5 @@
  body {
     font-family: 'Times New Roman', Times, serif;
-    /* background-color: #547ce8; */
-    /* background-image: url("images.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat; */
     background: linear-gradient(135deg, #547ce8, #34d8ac);
     margin: 0;
     padding: 20px;
@@ -20,25 +16,17 @@
                 0 0 0 2px white,
                 0.3em 0.3em 1em rgba(65, 4, 65, 0.6);;
     border-radius:20px; 
-    /* border:2px solid transparent; */
     max-width: 500px;
     width: 100%;
     height:auto; 
      margin-top: 10px; 
     margin-bottom: 10px; 
-
-    /*  padding-top:10px;
-    padding-bottom: 10px; */
 }
 
 h1 {
     text-align: center;
     color:rgb(33, 32, 32);
 }
-
-/* .input-section {
-    margin-bottom: 10px;
-}  */
 
 .input-section label {
     display: block;
@@ -89,7 +77,6 @@ button:hover {
 } 
 
 .navigation{
-    /* margin:10px; */
     margin-top: 15px;
     display:block;
      justify-content: center;
